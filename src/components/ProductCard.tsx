@@ -4,7 +4,7 @@ import { Product } from '@/lib/api';
 import { AddToCart } from './AddToCart';
 export const ProductCard = ({ product }: { product: Product }) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+    <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-lg transition-shadow">
       <img 
         src={product.image} 
         alt={product.title} 
